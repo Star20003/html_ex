@@ -1,0 +1,48 @@
+input{
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: right 0.1rem top 0.4rem ;
+    background-color: #239BD8;
+    font-size: 2rem;
+    width: 34rem;
+    padding: 0 1rem 1rem 1rem;
+    border: none;
+    border-bottom: 0.1rem solid #fff ;
+    outline: none;
+    color: #fff;
+}
+input::placeholder{
+    font-size: 2rem;
+    color: #fff;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    border-bottom: 0.3rem solid #239BD8;
+    width: 40rem;
+}
+.card{
+    width: 37.5rem;
+    height: 66rem;
+    border-radius: 1rem;
+    background-color: #F6F9FF;
+    box-shadow: 0 1.2rem 2.4rem 0.2rem rgba(185, 185, 185, 0.05), 0 2.4rem 6rem 0rem rgba(106, 106, 106, 0.05), 0rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.10); 
+    transition: all 0.5s;   
+}
+.card:hover{
+    transform: scale(108%);
+    box-shadow: 0 0.2rem 0.8rem 0.4rem  #d3d3d3;
+}
+.card h4{
+    background: linear-gradient(180deg, #1E9781 0%, #22C3A6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2.4rem 2rem;
+}
+.card p{
+    font-size: 1.6rem;
+    padding: 0 2rem;
+    color: #7C8DB0;
+}
